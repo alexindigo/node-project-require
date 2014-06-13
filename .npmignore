@@ -1,0 +1,7 @@
+.DS_Store
+.gitignore
+.jshintrc
+.npmignore
+.travis.yml
+node_modules
+test.js

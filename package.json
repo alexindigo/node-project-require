@@ -1,0 +1,29 @@
+{
+  "name": "project-require",
+  "version": "0.0.1",
+  "description": "Allows to require project files as absolute paths, relative to the root of your node project.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "install": "mkdir -p node_modules/project-require && cp index.js node_modules/project-require/",
+    "test": "npm install && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alexindigo/node-project-require.git"
+  },
+  "keywords": [
+    "require",
+    "absolute",
+    "path",
+    "project",
+    "root"
+  ],
+  "author": "Alex Indigo <iam@alexindigo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexindigo/node-project-require/issues"
+  },
+  "homepage": "https://github.com/alexindigo/node-project-require"
+}
