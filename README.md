@@ -1,4 +1,4 @@
-# project-require
+# project-require [![Build Status](https://travis-ci.org/alexindigo/node-project-require.svg?branch=master)](https://travis-ci.org/alexindigo/node-project-require)
 
 Allows to require project files as absolute paths, relative to the root of your node project.
 Because how often you're using absolute path in your requires? :)
