@@ -5,6 +5,8 @@ var path        = require('path')
 // public api
 module.exports             = pretendRequire;
 module.exports.projectPath = projectPathGetterSetter;
+// expose original require
+module.exports.thru = require;
 
 // check for requested path, if it starts with "/"
 // treat it as path relative to the project's root

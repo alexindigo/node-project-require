@@ -1,6 +1,6 @@
 {
   "name": "project-require",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Allows to require project files as absolute paths, relative to the root of your node project.",
   "main": "index.js",
   "dependencies": {},

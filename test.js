@@ -14,3 +14,6 @@ console.assert(typeof require(project).projectPath == 'function');
 
 // check built-in modules
 console.assert(typeof require('path').join == 'function');
+
+// check passing through
+console.assert(require.thru(process.cwd() + '/package.json').name == project);
