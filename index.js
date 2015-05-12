@@ -13,7 +13,7 @@ module.exports.thru = require;
 // and replace it with absolute path
 function pretendRequire(file)
 {
-  if (file && file.substr(0, 1) == '/')
+  if (file && file.substr(0, 1) == path.sep)
   {
     file = path.join(projectPath, file.substr(1));
   }
