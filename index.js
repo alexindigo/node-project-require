@@ -13,6 +13,7 @@ module.exports.thru = require;
 // and replace it with absolute path
 function pretendRequire(file)
 {
+    file = path.normalize(file)
   if (file && file.substr(0, 1) == path.sep)
   {
     file = path.join(projectPath, file.substr(1));
@@ -38,5 +39,5 @@ function projectPathGetterSetter(newPath)
 // that contains current module
 function projectPathDefault()
 {
-  return path.dirname(module.id).split(path.sep + 'node_modules' + path.sep, 2)[0];
+  return path.dirname(module.id).split(path.normalize('/node_modules/'), 2)[0];
 }
