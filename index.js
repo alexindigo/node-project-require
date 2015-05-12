@@ -38,5 +38,5 @@ function projectPathGetterSetter(newPath)
 // that contains current module
 function projectPathDefault()
 {
-  return path.dirname(module.id).split('/node_modules/', 2)[0];
+  return path.dirname(module.id).split(path.sep + 'node_modules' + path.sep, 2)[0];
 }
