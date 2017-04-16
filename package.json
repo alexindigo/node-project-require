@@ -1,12 +1,11 @@
 {
   "name": "project-require",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Allows to require project files as absolute paths, relative to the root of your node project.",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "install": "mkdir -p node_modules/project-require && cp index.js node_modules/project-require/",
     "test": "npm install && node test.js"
   },
   "repository": {
